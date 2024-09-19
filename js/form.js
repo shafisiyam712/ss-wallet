@@ -12,7 +12,8 @@ document.getElementById('btn-login').
 
         if(phoneNumber==='786' && pinNumber==='1234'){
             //step-4 to go new page
-            window.location.href='/home.html'
+           // window.location.href='/home.html'
+           window.location.href='./home.html'
         }
         else{
             console.log("wrong number & pin.");
